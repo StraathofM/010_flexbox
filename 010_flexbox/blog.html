@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@600&display=swap" rel="stylesheet">
+    <title>Mijn eerste website</title>
+</head>
+
+<body>
+    <header>
+        <div class="head-border">
+            <h1>Margot Straathof</h1>
+            <p>Mijn eerste website!</p>
+        </div>
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Nieuw_Zeeland.html">Nieuw-Zeeland</a></li>
+                <li><a href="over.html">Over mij</a></li>
+                <li><a class="active" href="blog.html">Blogs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Mijn blog posts</h2>
+        <p>Hieronder vind je al mijn blogposts.</p>
+        <div class="blogoverview">
+            <div class="blogpost first">
+                <img height="110px" src="https://i.ytimg.com/vi/Ce7hJ24a8yM/maxresdefault.jpg" alt="">
+                <h4>Waarom ik een puppy wil</h4>
+            </div>
+            <div class="blogpost rest">
+                <img height="110px" src="https://www.gannett-cdn.com/presto/2021/01/07/USAT/0d87949b-7f95-4318-a7f7-72f2b6893d05-marvel-shows.png?crop=1593,896,x6,y0&width=960" alt="">
+                <h4>Alles over de komende Marvel-films</h4>
+            </div>
+            <div class="blogpost rest">
+                <img height="110px" src="https://www.frappant.com/wp-content/uploads/2021/01/Tonys-Chocolonely.jpg" alt="">
+                <h4>Recensie: nieuwe smaak Tony's Chocolonely weinig vernieuwend</h4>
+            </div>
+            <div class="blogpost rest">
+                <img height="110px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAhFBMVEXjGRz////jFBfnR0jiAADiAwrthIXsfH3iAAXjDhLxn6Dzrq7jGx3tiYriBgzoVlf+9fbrdXbnTU/pXl/mPkD2xsb52Nnzs7PnTlD86en97u7qbG3qZmfxpKXseXroWFnkKy33y8vlMjTvkpPlNjj0u7vzsbL40tPwmpvvj5DkJyr64eGB9gO/AAAGTUlEQVR4nO2d/VvaMBCA2xCg5aMIgh8DZeqcOv///28Cbe6S3BV8HjU9vfen0aYkbxPSy6Xbsux7Y3qpW/DZqKF81FA+aigfNZSPGspHDeWjhvJRQ/mooXzUUD5qKB81lI8aykcN5aOG8lFD+aihfNRQPmooHzWUjxrKRw3lo4byUUP5qKF81FA+aigfNZSPGspHDeWjhvJRQ/mooXzUUD5qKB81lI8aykcN5aOG8lFD+aihfNRQPj/SsOofKMkLyvpsn7iCpYovZys4uZg55YsoQzOsuaIuLBfN6Yk71r8dHmFdNPfiHB3dWq5VdouKnTO3eulKLPpkCcbQPucNVAPsWXN23JzuD/KjzOpWGu8o0/asPPeKkaUM/qqleY/h6L2GxfS4Ye1iJt7RFdOJduUVy6j2Fy+oxJgdDYkNyRp2lfilSEN7gUr86qzhoCCqyIpg2FOGwTfN+MkmreEFee+97mEM0XSx45LvxLSG+W+qe34HhUjDV6/IWWcNn4k6UAtYQ/OHriCd4YIxvKYMr48bRnfhke3EjzWc9hYUV8s6qIkMG3VEeRWWoQzDu8BNyx9taEuapomx4d+oEnt53LDshWXydRUW+hTDtuiJNowrsVGR2NDeRIW46CG9YXjvq/Uphr+iQuwwTW4Y3vsgYiMN0U8VSs+ZYZrcMO977TdVXCIytH+hja49d0wnpjf0Izfq0RMbIi2QZSpPZujmCj9yg4gNJpPQEC2ubu0MbhVdezLDuXui3SMBc98cvZ6zhvYRNREmnSd6mCYzHLrQeYTqgdqfh7yhO/M2Tdmx+1SS6+BWwyrmyBO/H1+BgxZkOHB/xIs76JEMllCBYbVxZ97mT/Twn5JrsTbD53kMrKwpwxviig2qFxvCLw4iN3gMXFjW0Buk+KbQa7E2w3ZOjrx70EDP0CnA4g4itkGLoTuxf5ai+OYfNUy/wBCtvz3Dwv0ZDOEQa1jBFLSPh9AwfaA6MZ1hAdFLE7lBxLayBWdo74I7A+uM144Zlm7GaCI3aPymZA2h6+s1IWrxHyplkM4QPXmqfctM2Xw+sxln2IenyKZeVi/dkRHRiUkN3aPsMM/DF415Q/uEbkN9yA1TKmWQ0hBu/mGeh+zS0nCGKNXtEhco70Ykv7/AcEk/LQp883c5N8ix7WYMxhBV5pJPEOrlN3EnthkOr2YRMFVThi/xFdslWreFhg/Np90PCB5sD7whxAkogQidTyS/W6M2IuPy/jwNHjeBofEiNwhOJoYzRF+AksBomMYbZski7/2yEKaNWVm6ddB+LUsbQq97P2/IIcd7NGkNIT65tBBu7vMRjKEbj16Wmxy7nTD0wjS/XtIQzSl3FgMZyG04TFMbuo5bu4jtkTcM9mMooj2axIbw41u5KPUwWdCGUao7pmOGROaznvApQxSf8WyCrGJywyjAGPGGRKo7JtyjSW2I5o6aOjFFGhKp7piOGUYbvk0qgjAsF6cIhsnv5Ibhpj1xvDFEabU2gn2C5IZoRetVShme5SfxmYa2NDQthv5WzIo3LLfuyFP8FtYtZOCG3o3+WMPBskdy37wSRRii9Gfu1u2UIQpcbBG/Owct85PfX7SPX2cUKUNv8EFYSRi2bzOhG+BtZyV7FwMZoglkzBtC4ioYhjVoEHvJ7w4Y4k35noubI0OU6iaz96hpXvK7A4ZoSYQSnrGh+8zshaKtRJz87oShW9Y+8IZof/+WfihBFO8lv7tgCEcncO9DQ/RQ4d5JgLa9dszQ5brx8IsM3Uduwx5PWWjX9QMMT3lHuFl5Q7YT70mbyejmjRHqQvytu2srSHWz7wahuBW9Lxe/5z0ZTA9E+YD9t8zqs1P4NVeDY9zC472+euB9uTnkIrx0btm0Y7/gM/dNvRuuC9/6fdsUWrb04dvdKw4wL5DXZwsTX8FSRZcfi2CjdpjC+0hDNe5H/n2Lb4YaykcN5aOG8lFD+aihfNRQPmooHzWUjxrKRw3lo4byUUP5qKF81FA+aigfNZSPGspHDeWjhvJRQ/mooXzUUD5qKB81lI8aykcN5aOG8lFD+aihfNRQPmooHzWUjxrKRw3lo4byUUP5qKF81FA+P8BwkS1a/hPPb0A1z1r+d8TvgH3K8jX7DzrKp7IveZbnqzX9DzrKZzF/yvP/ytltmY4JFP0AAAAASUVORK5CYII=" alt="">
+                <h4>Red de HEMA</h4>
+            </div>
+            <div class="blogpost rest">
+                <img height="110px" src="https://st2.depositphotos.com/1915171/6007/v/950/depositphotos_60072109-stock-illustration-quote-sign-icons.jpg" alt="">
+                <h4>"Beste lezer"</h4>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </main>
+
+    <footer>
+        <hr>
+        &copy; <b>Margot Straathof</b><br>
+        <time datetime="2021-05-06 12:30+0100">6 mei 2021</time>
+    </footer>
+
+</body>
+</html>
